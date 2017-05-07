@@ -11,8 +11,9 @@ int main(int argc, char const *argv[])
 	{
 		for (j = 0; j < n; ++j)
 		{
-			printf("d ",a[i][j]);
+			printf("%d ",a[i][j]);
 		}
+		putchar('\n'); 
 	}
 	return 0;
 }
